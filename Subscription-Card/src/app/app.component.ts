@@ -18,7 +18,6 @@ export class AppComponent implements OnInit{
     private cardService : CardService,
     ){}
 
-
   ngOnInit(): void {
     this.getCard() 
   }
